@@ -3,7 +3,7 @@ const { prefix } = require("../settings/config.json");
 
 module.exports.run = async (bot, message, args) => {
   let embed = new discord.RichEmbed()
-    .setTitle('Documentation')
+    .setTitle('MUSIC COMMAND')
   .setURL('https://cadmium.glitch.me')
   .setDescription('')
   .setAuthor('TRIVIA TIME')
