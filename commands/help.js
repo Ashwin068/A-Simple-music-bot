@@ -4,8 +4,8 @@ const { prefix } = require("../settings/config.json");
 module.exports.run = async (bot, message, args) => {
   let embed = new discord.RichEmbed()
     .setTitle('MUSIC COMMAND')
-  .setURL('https://cadmium.glitch.me')
-  .setDescription('**;play**\nUse it like`;play<songname/url>`')
+  .setURL('(bot.user.displayAvatarURL')
+  .setDescription('**;play**\nUse it like`;play<songname/url>`\n**;search**\nUse it like `;search <songname>`\n')
   .setAuthor('TRIVIA TIME')
   .setThumbnail(bot.user.displayAvatarURL)
   .setColor(bot.embedColor)
