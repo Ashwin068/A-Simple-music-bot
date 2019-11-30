@@ -5,8 +5,8 @@ module.exports.run = async (bot, message, args) => {
   let embed = new discord.RichEmbed()
     .setTitle('Documentation')
   .setURL('https://cadmium.glitch.me')
-  .setDescription('The Cadmium Music Bot')
-  .setAuthor('Cadmium')
+  .setDescription('')
+  .setAuthor('TRIVIA TIME')
   .setThumbnail(bot.user.displayAvatarURL)
   .setColor(bot.embedColor)
   message.channel.send(embed);
