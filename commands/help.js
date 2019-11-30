@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
   let embed = new discord.RichEmbed()
     .setTitle('MUSIC COMMAND')
   .setURL('https://cadmium.glitch.me')
-  .setDescription('***help**\n*play')
+  .setDescription('**;play**\nUse it like`;play<songname/url>`')
   .setAuthor('TRIVIA TIME')
   .setThumbnail(bot.user.displayAvatarURL)
   .setColor(bot.embedColor)
