@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
   .setDescription('**;play**\nUse it like`;play<songname/url>`\n**;search**\nUse it like `;search <songname>`')
   .setAuthor('TRIVIA TIME')
   .setThumbnail(bot.user.displayAvatarURL)
-  .setColor(bot.embedColor)
+  .setColor("RANDOM")
   message.channel.send(embed);
 };
 
