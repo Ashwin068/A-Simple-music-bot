@@ -25,6 +25,6 @@ module.exports.run = async (bot, message, args) => {
 };
 
 module.exports.help = {
-  name: "stop",
-  aliases: ["dis" , "dc" , "disconnect"]
+  name: "dis",
+  aliases: ["dc" , "disconnect"]
 };
