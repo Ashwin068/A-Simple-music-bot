@@ -9,6 +9,7 @@ module.exports.run = async (bot, message, args) => {
   .setAuthor('TRIVIA TIME')
   .setThumbnail(bot.user.displayAvatarURL)
   .setColor("RANDOM")
+  .setTimestamp()
   message.channel.send(embed);
 };
 
