@@ -5,7 +5,7 @@ module.exports = {
   ready: bot => {
    bot.login(token)
     bot.on("ready", () => {
-      bot.user.setActivity("Cadmium Music", { type: "LISTENING" });
+      bot.user.setActivity(";help || Music", { type: "LISTENING" });
       bot.user.setStatus("online");
       console.log("I am Ready! id:" + bot.user.id);
     });
